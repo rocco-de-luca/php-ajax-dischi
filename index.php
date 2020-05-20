@@ -24,7 +24,7 @@ include __DIR__ .'./index2.php'
        <div class="container_dischi">
            <?php foreach ($db as $k => $dischi) { ?>
              <div class="info_dischi">
-               <img class="image_dischi" src="<?php echo $disc['poster']; ?>" alt="">
+               <img class="image_dischi" src="<?php echo $dischi['poster']; ?>" alt="">
                <h3><?php echo $dischi['title']; ?></h3>
                <h4><?php echo $dischi['author']; ?></h4>
                <p><?php echo $dischi['year']; ?></p>
