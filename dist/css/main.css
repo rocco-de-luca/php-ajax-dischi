@@ -13,7 +13,6 @@ header {
   line-height: 120px;
   vertical-align: middle;
 }
-
 .logo_nav .logo {
   height: 50px;
   margin-top: 10px;
@@ -24,50 +23,54 @@ h2 {
 }
 
 .container {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  background: #2e3a46;
-}
-
-.container .container_dischi {
-  width: 60%;
-  margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 100px 0;
+  background-color: #1E2D3B;
 }
-
-.container .image_dischi {
-  padding-top: 30px;
-  width: 75%;
-}
-
-.container .info_dischi {
-  width: 30%;
-  background-color: black;
-  padding-bottom: 20px;
-  margin-top: 20px;
+.container .container_dischi {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 200px;
+  padding: 20px;
+  margin: 10px 20px;
+  background: #2e3a46;
   text-align: center;
-  color: white;
 }
-
+.container .image_dischi {
+  max-width: 100%;
+}
+.container .info_dischi {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 200px;
+  padding: 20px;
+  margin: 10px 20px;
+  background: #2e3a46;
+  text-align: center;
+}
 .container h3 {
-  padding-top: 10px;
-  font-size: 20px;
+  margin: 20px 0;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
 }
-
 .container h4 {
   padding-top: 10px;
   font-size: 18px;
+  color: white;
 }
-
 .container p {
   padding-top: 10px;
   font-size: 16px;
+  color: white;
 }
-
 .container h2 {
   color: white;
 }
-

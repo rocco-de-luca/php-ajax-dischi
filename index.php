@@ -7,7 +7,7 @@ include __DIR__ .'/index2.php'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><PHP-AJAX-DISCHI></PHP-AJAX-DISCHI></title>
+    <title>PHP-AJAX-DISCHI</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
@@ -37,9 +37,8 @@ include __DIR__ .'/index2.php'
      </div>
    </main>
 
-
-    <!--JS-->
-<script src="dist/main.js"></script>
+   <!--JS-->
+    <script src="dist/main.js"></script>
 
 </body>
 </html>
