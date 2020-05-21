@@ -1,5 +1,5 @@
 <?php
-include __DIR__ .'./index2.php'
+include __DIR__ .'/index2.php'
 ?>
 
 <!DOCTYPE html>
